@@ -1,6 +1,5 @@
 # Alyavere-AI
 
-# Alyavere AI
 ### Adaptive Learning Companion for Students
 
 **Alyavere AI** is an AI-powered learning companion designed to help students learn more effectively through personalized explanations, adaptive practice, and progress evaluation.
