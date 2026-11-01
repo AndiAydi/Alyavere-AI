@@ -1,0 +1,14 @@
+.app-header{
+    
+}
+.app-name{
+    color: purple;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.send-button{
+    color: blueviolet;
+    size: 20px;
+    outline: 2px;
+    outline-color: antiquewhite;
+}

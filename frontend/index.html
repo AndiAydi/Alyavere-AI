@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Companion and Tutor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header">
+        <h1 class="app-name">Alyuvere AI</h1>
+        <p>Your personal learning companion</p>
+    </header>
+    <main class="app-container">
+        <section class="dashboard">
+            <h2>Welcome back!</h2>
+            <p>Ready to learn something new today?</p>
+            <div class="progress-card">
+                <h3>Learning Progress</h3>
+                <p>Lessons completed: 0</p>
+                <progress value="0" max="100"></progress>
+                <p>Weekly goal: 0%</p>
+            </div>
+        </section>
+        <section class="chat-section">
+            <h2>Chat with your companion</h2>
+            <div id="chat-messages" aria-live="polite">
+                <div class="message ai-message">
+                    Hi! What would you like to learn today?
+                </div>
+            </div>
+
+            <form id="chat-form">
+                <select id="chat-mode" aria-label="AI mode">
+                    <option value="both">Companion + Tutor</option>
+                    <option value="companion">Companion</option>
+                    <option value="tutor">Tutor</option>
+                </select>
+
+                <input
+                    type="text"
+                    id="user-input"
+                    placeholder="Type your message..."
+                    maxlength="2000"
+                    required
+                >
+                <button id="send-button" type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
